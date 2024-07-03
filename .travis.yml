@@ -13,4 +13,4 @@ script:
     - docker run -e CI=true cxz/docker-app npm run test -- --coverage
 
 after_success:
-    - echo "Test Success add text"
+    - echo "Test Success"
